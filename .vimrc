@@ -84,6 +84,8 @@ set hidden
 set showcmd
 " Git-最終行の改行メッセージ
 set binary noeol
+" ヤンクでクリップボードコピー
+set clipboard=unnamed,autoselect
 
 " 見た目系
 " 行番号を表示
