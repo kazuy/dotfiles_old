@@ -68,7 +68,9 @@ syntax enable
 "End dein Scripts-------------------------
 
 "Vim Settings-----------------------------
-"文字コードをUFT-8に設定
+" Deleteキーを効かせる
+set backspace=indent,eol,start
+" 文字コードをUFT-8に設定
 set fenc=utf-8
 " バックアップファイルを作らない
 set nobackup
@@ -80,6 +82,8 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
+" Git-最終行の改行メッセージ
+set binary noeol
 
 " 見た目系
 " 行番号を表示
@@ -123,8 +127,6 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-" deleteキーが効かない現象が発生した時のおまじない
-set backspace=indent,eol,start
 "End Vim Settings-------------------------
 
 "KeyBindings------------------------------
