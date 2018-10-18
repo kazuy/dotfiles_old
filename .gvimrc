@@ -6,3 +6,7 @@ colorscheme tokyo-metro
 " 透明度
 set transparency=20
 
+" 画面サイズ
+set lines=100
+set columns=300
+
