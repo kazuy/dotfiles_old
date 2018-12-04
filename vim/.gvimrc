@@ -10,3 +10,6 @@ set transparency=20
 set lines=100
 set columns=300
 
+" フォント
+set guifont=Menlo\ Regular:h18
+
