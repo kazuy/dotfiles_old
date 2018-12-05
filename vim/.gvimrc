@@ -11,5 +11,5 @@ set lines=100
 set columns=300
 
 " フォント
-set guifont=Menlo\ Regular:h18
+set guifont=Osaka-Mono:h18
 
