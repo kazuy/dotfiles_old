@@ -19,4 +19,12 @@ else
 
 fi
 
+echo "  Brewfile"
+if [[ -h ~/.Brewfile ]] ; then
+  unlink ~/.Brewfile
+fi
+ln -s ~/dotfiles/homebrew/.Brewfile ~/.Brewfile
+
+brew bundle --global
+
 exit 0
