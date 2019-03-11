@@ -108,12 +108,18 @@ set wildmode=list:longest
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
 set list listchars=tab:\▸\-
-" Tab文字を半角スペースにする
-set expandtab
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
 set tabstop=2
 " 行頭でのTab文字の表示幅
 set shiftwidth=2
+" 連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
+set softtabstop=2
+" 改行時に前の行のインデントを継続する
+set autoindent
+" 改行時に入力された行の末尾に合わせて次の行のインデントを増減する
+set smartindent
+" Tab文字を半角スペースにする
+set expandtab
 
 " 検索系
 " 検索文字列が小文字の場合は大文字小文字を区別なく検索する
