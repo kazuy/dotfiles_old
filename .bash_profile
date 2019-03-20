@@ -14,5 +14,5 @@ eval "$(goenv init -)"
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
 
-# Secret
-export WORDPRESS_MYSQL_PASSWORD=Mp0iKE{wOx7D
+# mysql-client
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
