@@ -3,12 +3,12 @@
 ## Dump
 
 ```
-$ brew bundle dump --file=.Brewfile
+$ brew bundle dump --global --force
 ```
 
 ## Import
 
 ```
-$ brew bundle import --file=.Brewfile
+$ brew bundle --global
 ```
 
